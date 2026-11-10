@@ -39,7 +39,7 @@ Without data cleaning, I felt like a lot of the other grander features (which ar
 
 So I built this tool, sort of as the plumbing for data, made for noobs. It is intended to be used together with data analysis tools!
 
-Some decisions:
+## Some decisions:
 **The grid/table stays front and centre.** People trust what they can see. A summary of relationships would be really nice, but people need to see data tangibly to trust it (especially if they're making multi-million dollar decisions based on it). So, my main interface is a grid with notes beside it. 
 
 **Show every problem, then ask.** A lot of fixes require knowledge only the user has. Does a blank discount mean 0? Are "Acme Inc" and "ACME" the same customer? So the tool finds the questions and the user answers them, through buttons. For more complex issues or maybe issues the user spots manually, we use the 'Chat' interface.
