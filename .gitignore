@@ -1,0 +1,10 @@
+.env
+.venv
+node_modules
+__pycache__
+dist
+.DS_Store
+backend/data/
+CLAUDE.md
+Extensions.md
+script.md

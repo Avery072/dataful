@@ -1,0 +1,26 @@
+[project]
+name = "dataful-backend"
+version = "0.1.0"
+description = "Dataful API: profile messy spreadsheets, find trust issues, apply replayable decisions."
+requires-python = ">=3.12"
+dependencies = [
+    "anthropic>=2.6.0",
+    "duckdb>=1.5.6",
+    "fastapi>=0.162.2",
+    "openpyxl>=3.1.5",
+    "python-dotenv>=1.2.4",
+    "python-multipart>=0.0.32",
+    "uvicorn>=0.54.0",
+]
+
+[tool.ruff]
+line-length = 140
+
+[dependency-groups]
+dev = [
+    "pytest>=9.2.0",
+]
+
+[tool.pytest.ini_options]
+pythonpath = [".", "tests"]
+testpaths = ["tests"]
